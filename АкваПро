@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>АкваПро | Сантехник Астана 24/7 — срочный вызов, замена труб</title>
+    <!-- SEO meta + микроразметка для ИИ (JSON-LD) -->
+    <meta name="description" content="АкваПро — срочный сантехник в Астане за 30 минут. Честные цены, гарантия до 1 года, круглосуточно. Недорогой частный мастер, замена труб, установка унитаза. Выезд в любой район.">
+    <meta name="keywords" content="сантехник Астана, вызвать сантехника в Астане, услуги сантехника Астана, срочный сантехник Астана, замена труб Астана, установка унитаза Астана, недорогой сантехник Астана, частный сантехник Астана, круглосуточный сантехник Астана, АкваПро">
+    <meta name="geo.region" content="KZ-AKM">
+    <meta name="geo.placename" content="Астана">
+    <meta name="geo.position" content="51.160522;71.470356">
+    <meta name="ICBM" content="51.160522, 71.470356">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="canonical" href="https://akvapro.kz/">
+    
+    <!-- OpenGraph для соцсетей + ИИ -->
+    <meta property="og:title" content="АкваПро — сантехник Астана 24/7">
+    <meta property="og:description" content="Срочный сантехник в Астане за 30 минут. Гарантия, честные цены. Замена труб, установка унитаза.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://akvapro.kz/">
+    <meta property="og:image" content="https://akvapro.kz/og-image.jpg">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:site_name" content="АкваПро">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="АкваПро — сантехник Астана">
+    <meta name="twitter:description" content="Срочный вызов сантехника в Астане. Работаем 24/7. Гарантия до 1 года.">
+
+    <!-- Микроразметка для организаций (JSON-LD) — помогает ИИ и поиску -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Plumber",
+      "name": "АкваПро",
+      "alternateName": "Сантехник Астана АкваПро",
+      "description": "Профессиональные сантехнические услуги в Астане. Круглосуточно, гарантия, честные цены.",
+      "url": "https://akvapro.kz/",
+      "telephone": "+77786837983",
+      "email": "info@akvapro.kz",
+      "logo": "https://akvapro.kz/logo.png",
+      "image": "https://akvapro.kz/about-image.jpg",
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "City",
+        "name": "Астана"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "sameAs": [
+        "https://wa.me/77786837983"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Сантехнические услуги",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Устранение засоров"
+            },
+            "price": "5000",
+            "priceCurrency": "KZT"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Замена смесителя"
+            },
+            "price": "7000",
+            "priceCurrency": "KZT"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Установка унитаза"
+            },
+            "price": "9000",
+            "priceCurrency": "KZT"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Замена труб"
+            },
+            "price": "15000",
+            "priceCurrency": "KZT"
+          }
+        ]
+      }
+    }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+        }
+        body {
+            background: #ffffff;
+            color: #1e2b3c;
+            line-height: 1.5;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        :root {
+            --brand: #0a4b8c;
+            --brand-light: #3b7bb7;
+            --brand-dark: #073a6b;
+            --accent: #ffb347;
+            --gray-bg: #f5f8fc;
+            --gray-border: #e1e8f0;
+            --text-dark: #1e2b3c;
+            --text-soft: #2c3e50;
+        }
+
+        h1, h2, h3 {
+            font-weight: 600;
+            line-height: 1.2;
+            color: var(--text-dark);
+        }
+        h1 { font-size: 2.4rem; margin-bottom: 1rem; }
+        h2 { font-size: 2rem; margin-bottom: 1.5rem; position: relative; }
+        h2:after {
+            content: '';
+            display: block;
+            width: 70px;
+            height: 3px;
+            background: var(--brand);
+            margin-top: 0.5rem;
+        }
+        .text-center h2:after { margin-left: auto; margin-right: auto; }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            box-shadow: 0 6px 12px rgba(0,40,80,0.1);
+        }
+        .btn-primary {
+            background: var(--brand);
+            color: white;
+        }
+        .btn-primary:hover {
+            background: var(--brand-dark);
+            transform: translateY(-2px);
+        }
+        .btn-outline {
+            background: white;
+            color: var(--brand);
+            border: 2px solid var(--brand);
+        }
+        .btn-outline:hover {
+            background: var(--brand);
+            color: white;
+        }
+        .btn-wa {
+            background: #25d366;
+            color: white;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .btn-wa:hover {
+            background: #128C7E;
+        }
+
+        header {
+            background: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.03);
+            border-bottom: 2px solid var(--gray-border);
+            position: sticky;
+            top: 0;
+            z-index: 110;
+            backdrop-filter: blur(5px);
+            background: rgba(255,255,255,0.97);
+        }
+        .header-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .logo h2 {
+            font-size: 2rem;
+            margin: 0;
+            color: var(--brand);
+        }
+        .logo span {
+            font-weight: 300;
+            font-size: 0.9rem;
+            color: var(--text-soft);
+            display: block;
+            line-height: 1.2;
+        }
+        .header-phone {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--brand-dark);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .header-phone:hover { text-decoration: underline; }
+
+        .mobile-sticky {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            box-shadow: 0 -4px 12px rgba(0,0,0,0.1);
+            padding: 10px 20px;
+            z-index: 1000;
+            justify-content: space-around;
+            border-top: 1px solid var(--gray-border);
+        }
+        .sticky-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            font-weight: 600;
+            color: var(--brand);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .sticky-btn span { background: #eef3f9; padding: 2px 12px; border-radius: 30px;}
+
+        .hero {
+            background: linear-gradient(130deg, #f0f7ff 0%, #ffffff 70%);
+            padding: 50px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.08"><path d="M30,50 L45,20 L60,50 L45,80 Z" fill="%230a4b8c"/><circle cx="70" cy="30" r="12" fill="%230a4b8c"/><rect x="15" y="65" width="20" height="25" rx="3" fill="%230a4b8c"/><path d="M10 15 L25 5 L40 15 L25 25 Z" fill="%230a4b8c"/></svg>');
+            background-size: 180px 180px;
+            background-repeat: repeat;
+            opacity: 0.3;
+            pointer-events: none;
+        }
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .benefits {
+            padding: 60px 0;
+            background: white;
+        }
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .benefit-card {
+            background: var(--gray-bg);
+            padding: 25px 18px;
+            border-radius: 24px;
+            border-left: 4px solid var(--brand);
+            box-shadow: 0 8px 16px rgba(0,30,60,0.04);
+        }
+        .benefit-card h3 { margin-bottom: 10px; color: var(--brand-dark); }
+
+        .prices {
+            background: var(--gray-bg);
+            padding: 60px 0;
+        }
+        .price-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+        .price-item {
+            background: white;
+            border-radius: 24px;
+            padding: 24px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+            border: 1px solid var(--gray-border);
+        }
+        .price-item strong {
+            font-size: 1.8rem;
+            color: var(--brand);
+            display: block;
+            margin: 12px 0 6px;
+        }
+
+        .steps {
+            padding: 60px 0;
+        }
+        .steps-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .step {
+            background: white;
+            border-radius: 30px;
+            padding: 25px;
+            flex: 1 1 180px;
+            min-width: 160px;
+            text-align: center;
+            box-shadow: 0 8px 18px #d9e2ef;
+        }
+        .step-num {
+            width: 48px;
+            height: 48px;
+            background: var(--brand);
+            color: white;
+            font-size: 1.8rem;
+            font-weight: bold;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+        }
+
+        .about {
+            padding: 60px 0;
+            background: white;
+        }
+        .about-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            align-items: center;
+        }
+        .about-text { flex: 2; min-width: 280px; }
+
+        .gallery {
+            padding: 60px 0;
+            background: var(--gray-bg);
+        }
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .work-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+            border: 1px solid var(--gray-border);
+        }
+        .work-card .label {
+            background: var(--brand);
+            color: white;
+            padding: 4px 10px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            display: inline-block;
+            margin: 10px 0 0 10px;
+            border-radius: 20px;
+        }
+        .work-card .placeholder-img {
+            background: linear-gradient(145deg, #eef3f9, #dae3f0);
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0a4b8c;
+            font-weight: bold;
+            font-size: 2rem;
+            position: relative;
+        }
+        .work-card .placeholder-img::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(255, 255, 255, 0.5);
+            pointer-events: none;
+        }
+
+        .reviews {
+            padding: 60px 0;
+        }
+        .review-cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .review-item {
+            background: var(--gray-bg);
+            padding: 24px;
+            border-radius: 30px;
+            flex: 1 1 280px;
+            border: 1px solid white;
+        }
+        .review-item h4 { color: var(--brand-dark); margin-bottom: 10px; }
+
+        .contacts {
+            padding: 60px 0;
+            background: var(--gray-bg);
+        }
+        .contact-simple {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .contact-simple p {
+            font-size: 1.3rem;
+            margin: 20px 0;
+        }
+
+        footer {
+            background: var(--text-dark);
+            color: #ccc;
+            padding: 30px 0;
+            text-align: center;
+        }
+        footer a { color: white; text-decoration: none; }
+
+        @media (max-width: 900px) {
+            .hero-grid { grid-template-columns: 1fr; text-align: center; }
+            .hero-buttons { justify-content: center; }
+            h1 { font-size: 2rem; }
+            .grid-4 { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 700px) {
+            .header-wrapper { flex-direction: column; gap: 10px; }
+            .header-phone { margin: 5px 0; }
+            .mobile-sticky { display: flex; }
+            body { padding-bottom: 80px; }
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.8rem; }
+            .btn { width: 100%; }
+            .grid-4 { grid-template-columns: 1fr; }
+        }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-wrapper">
+            <div class="logo">
+                <h2>АкваПро</h2>
+                <span>сантехник Астана · 24/7</span>
+            </div>
+            <div>
+                <a href="tel:+77786837983" class="header-phone">+7 (778) 683-79-83</a>
+            </div>
+            <div>
+                <a href="#order" class="btn btn-primary" style="padding: 10px 24px;">Заказать звонок</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div>
+                <h1>АкваПро — срочный сантехник в Астане <br>Рядом с вами за 30 минут</h1>
+                <p style="font-size: 1.4rem; color: var(--brand-dark); margin-bottom: 15px;">Честные цены, гарантия качества, работаем круглосуточно. Никаких скрытых платежей.</p>
+                <div class="hero-buttons">
+                    <a href="#order" class="btn btn-primary">Вызвать мастера</a>
+                    <a href="https://wa.me/77786837983?text=Здравствуйте!%20Нужна%20помощь%20сантехника%2C%20сброшу%20фото" target="_blank" class="btn btn-wa">Узнать стоимость по фото (WhatsApp)</a>
+                </div>
+            </div>
+            <div style="text-align: center;">
+                <div style="font-size: 8rem; opacity: 0.25;">🔧🛠️</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <h2>Ваши риски под контролем</h2>
+            <div class="cards-grid">
+                <div class="benefit-card"><h3>🔍 Боитесь обмана?</h3><p>Фиксируем цены в смете ДО начала работ. Никаких доплат.</p></div>
+                <div class="benefit-card"><h3>⏳ Нужно срочно?</h3><p>Выезд за 30 минут в любой район Астаны.</p></div>
+                <div class="benefit-card"><h3>🧹 Грязная работа?</h3><p>Убираем за собой, используем бахилы, пылесосим.</p></div>
+                <div class="benefit-card"><h3>📄 Нет гарантий?</h3><p>Гарантия на все работы до 1 года. Чек и договор.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="prices" id="prices">
+        <div class="container">
+            <h2>Наши услуги в Астане</h2>
+            <div class="price-list">
+                <div class="price-item"><h3>Устранение засоров</h3><strong>от 5000 тг</strong><small>диагностика бесплатно</small></div>
+                <div class="price-item"><h3>Замена смесителя</h3><strong>от 7000 тг</strong><small>выезд 0 тг</small></div>
+                <div class="price-item"><h3>Установка унитаза</h3><strong>от 9000 тг</strong><small>Астана, частный мастер</small></div>
+                <div class="price-item"><h3>Замена труб</h3><strong>от 15000 тг</strong><small>сантехник Астана недорого</small></div>
+                <div class="price-item"><h3>Ремонт водонагревателей</h3><strong>от 6000 тг</strong><small>выезд за 30 мин</small></div>
+                <div class="price-item"><h3>Монтаж стиральных машин</h3><strong>от 5000 тг</strong><small>подключение, гарантия</small></div>
+            </div>
+            <p style="margin-top: 30px; background: #ddeeff; padding: 15px; border-radius: 60px; display: inline-block;">🔧 Выезд и диагностика — 0 тг (сумма вычитается при ремонте). Точная цена после осмотра.</p>
+        </div>
+    </section>
+
+    <section class="steps">
+        <div class="container">
+            <h2 class="text-center">Как мы работаем</h2>
+            <div class="steps-container">
+                <div class="step"><div class="step-num">1</div><h4>Заявка</h4><p>в WhatsApp или на сайте</p></div>
+                <div class="step"><div class="step-num">2</div><h4>Согласование</h4><p>удобное время и точная цена</p></div>
+                <div class="step"><div class="step-num">3</div><h4>Приезд и работа</h4><p>чисто, аккуратно, с гарантией</p></div>
+                <div class="step"><div class="step-num">4</div><h4>Оплата</h4><p>после вашей приёмки</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container about-wrap">
+            <div class="about-text">
+                <h2>АкваПро — честный сантехник в Астане</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 20px;">Мы — команда опытных сантехников в Астане. Работаем с 2015 года. Главное для нас — честность и качество. Мы не прячемся за безликими профилями, отвечаем за свою работу. Все мастера с опытом от 7 лет, трезвые, опрятные. Даём гарантию до 1 года и чек. <strong>Недорогой сантехник Астана — не миф, а реальность.</strong></p>
+                <p>👍 Более 3000 семей нам доверили ремонт. <strong>Круглосуточный сантехник Астана</strong> — звоните в любое время.</p>
+            </div>
+            <div style="flex:1; min-width:200px; background: #e2ecfe; border-radius: 30px; padding: 30px; text-align: center; font-size: 5rem;">👨‍🔧</div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>Примеры работ в Астане</h2>
+            <div class="grid-4">
+                <div class="work-card"><div class="label">До</div><div class="placeholder-img">🧼</div><div class="label" style="background:#3f9e4d;">После</div><div class="placeholder-img">✨</div></div>
+                <div class="work-card"><div class="label">До</div><div class="placeholder-img">🔩</div><div class="label" style="background:#3f9e4d;">После</div><div class="placeholder-img">✅</div></div>
+                <div class="work-card"><div class="label">До</div><div class="placeholder-img">💧</div><div class="label" style="background:#3f9e4d;">После</div><div class="placeholder-img">🚿</div></div>
+                <div class="work-card"><div class="label">До</div><div class="placeholder-img">⚙️</div><div class="label" style="background:#3f9e4d;">После</div><div class="placeholder-img">🔧</div></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h2>Нас рекомендуют</h2>
+            <div class="review-cards">
+                <div class="review-item"><h4>Иван, левый берег</h4>“Прорвало трубу ночью. Мастер приехал через 25 минут, всё починил. Цену назвал сразу, даже меньше чем думал. Спасибо!”</div>
+                <div class="review-item"><h4>Ольга, район ЖК</h4>“Устанавливали унитаз и стиральную машину. Аккуратно, быстро, ещё и мусор вынесли. Буду советовать.”</div>
+                <div class="review-item"><h4>Петрович, старая часть</h4>“Поменяли трубы под ключ. Работают как для себя — недорогой сантехник, но очень качественно. Гарантию дали.”</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contact-simple">
+                <h2>Свяжитесь с нами</h2>
+                <p style="font-size: 1.4rem;">📞 <a href="tel:+77786837983" style="color:var(--brand-dark); text-decoration: none;">+7 (778) 683-79-83</a></p>
+                <p>📧 info@akvapro.kz</p>
+                <p>📍 Выезжаем во все районы Астаны. Без адреса — работаем по заявкам.</p>
+                <p>🕐 Круглосуточно, без выходных</p>
+                <div style="margin-top: 30px;">
+                    <a href="https://wa.me/77786837983" target="_blank" class="btn btn-wa" style="padding: 16px 40px;">Написать в WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 АкваПро — частный сантехник Астана, услуги с гарантией</p>
+            <p><a href="tel:+77786837983">+7 (778) 683-79-83</a> | <a href="https://wa.me/77786837983">WhatsApp</a></p>
+        </div>
+    </footer>
+
+    <div class="mobile-sticky">
+        <a href="tel:+77786837983" class="sticky-btn"><span>📞</span> <span>Позвонить</span></a>
+        <a href="https://wa.me/77786837983?text=Здравствуйте!%20Нужен%20сантехник%20в%20Астане" target="_blank" class="sticky-btn"><span>💬</span> <span>WhatsApp</span></a>
+        <a href="#prices" class="sticky-btn"><span>💰</span> <span>Цены</span></a>
+    </div>
+
+    <script>
+        (function() {
+            document.querySelectorAll('a[href="#order"]').forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    alert('Позвоните нам: +7 (778) 683-79-83 или напишите в WhatsApp. Мы ответим за минуту!');
+                });
+            });
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    if(this.getAttribute('href') === '#order') return;
+                    const targetId = this.getAttribute('href');
+                    if(targetId === '#') return;
+                    const target = document.querySelector(targetId);
+                    if(target) {
+                        e.preventDefault();
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+        })();
+    </script>
+</body>
+</html>
+```
